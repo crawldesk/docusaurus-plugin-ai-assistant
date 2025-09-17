@@ -4,7 +4,9 @@
 
 **CrawlDesk Ask AI Assistant for Docusaurus** — add an **interactive Ask AI assistant** to your documentation effortlessly.
 
-This plugin lazy-loads the CrawlDesk **Ask AI widget** for **fast performance** and allows simple configuration for theme, position, and other options.
+This plugin lazy-loads the CrawlDesk **Ask AI widget** for **fast performance** and allows simple configuration for theme, and other options.
+
+🌐 Visit [CrawlDesk](https://www.crawldesk.com) to learn more or [Request a Demo](https://www.crawldesk.com/demo-request).
 
 ---
 
@@ -40,7 +42,6 @@ module.exports = {
         key: "YOUR_CRAWLDESK_WIDGET_KEY",
         config: {
           theme: "dark",
-          position: "bottom-right",
         },
       },
     ],
@@ -48,9 +49,10 @@ module.exports = {
 };
 ```
 
-- `key`: Your CrawlDesk Ask AI widget API key
+- **`key`**: Your CrawlDesk Ask AI widget API key
 
-- `config`: Widget configuration options (theme, position, etc.)
+- **`config`**: _Optional local overrides for the widget._  
+  Most settings are **managed via the [CrawlDesk Dashboard](https://www.crawldesk.com)**, but you can **override values locally here if needed**.
 
 That’s it — the Ask AI assistant will automatically appear in your docs!
 

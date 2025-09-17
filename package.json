@@ -1,0 +1,29 @@
+{
+    "name": "docusaurus-plugin-ai-assistant",
+    "version": "0.1.0",
+    "description": "AI Assistant plugin for Docusaurus - adds CrawlDesk Ask AI widget to your docs",
+    "main": "index.js",
+    "keywords": [
+        "docusaurus",
+        "plugin",
+        "ai",
+        "assistant",
+        "docs",
+        "search",
+        "chatbot",
+        "Ask AI"
+    ],
+    "author": "CrawlDesk",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/crawldesk/docusaurus-plugin-ai-assistant.git"
+    },
+    "bugs": {
+        "url": "https://github.com/crawldesk/docusaurus-plugin-ai-assistant/issues"
+    },
+    "homepage": "https://github.com/crawldesk/docusaurus-plugin-ai-assistant#readme",
+    "peerDependencies": {
+        "@docusaurus/core": "^3.0.0"
+    }
+}
